@@ -14,14 +14,30 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_rxv8ABpkEeqwoepTtIUh4g" name="Mesurer"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_0bh1QBpkEeqwoepTtIUh4g" name="Observer"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_2rjXIBpkEeqwoepTtIUh4g" name="Calculer"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_6r94kBpkEeqwoepTtIUh4g" name="Température"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_RccmwBplEeqwoepTtIUh4g" name="Humidité"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_AkBwwBpoEeqwoepTtIUh4g" name="Taux de rejet de CO2"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_EuUm8BpoEeqwoepTtIUh4g" name="Taux de COV"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_JgCpgBpoEeqwoepTtIUh4g" name="Consommation électrique"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_L-j6YBpoEeqwoepTtIUh4g" name="Production électrique"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_OqswgBpoEeqwoepTtIUh4g" name="Quantité d'eau chaude restante"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_Vs2koBpoEeqwoepTtIUh4g" name="Taux de charge de la voiture"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6r94kBpkEeqwoepTtIUh4g" name="Température">
+      <generalization xmi:type="uml:Generalization" xmi:id="_26LgoBpyEeqwoepTtIUh4g" general="_rxv8ABpkEeqwoepTtIUh4g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_RccmwBplEeqwoepTtIUh4g" name="Humidité">
+      <generalization xmi:type="uml:Generalization" xmi:id="_-An-4BpyEeqwoepTtIUh4g" general="_rxv8ABpkEeqwoepTtIUh4g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AkBwwBpoEeqwoepTtIUh4g" name="Taux de rejet de CO2">
+      <generalization xmi:type="uml:Generalization" xmi:id="__oCooBpyEeqwoepTtIUh4g" general="_rxv8ABpkEeqwoepTtIUh4g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EuUm8BpoEeqwoepTtIUh4g" name="Taux de COV">
+      <generalization xmi:type="uml:Generalization" xmi:id="_8mHvwBpyEeqwoepTtIUh4g" general="_rxv8ABpkEeqwoepTtIUh4g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JgCpgBpoEeqwoepTtIUh4g" name="Consommation électrique">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Bo2CwBpzEeqwoepTtIUh4g" general="_rxv8ABpkEeqwoepTtIUh4g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_L-j6YBpoEeqwoepTtIUh4g" name="Production électrique">
+      <generalization xmi:type="uml:Generalization" xmi:id="_1jbJEBpyEeqwoepTtIUh4g" general="_rxv8ABpkEeqwoepTtIUh4g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OqswgBpoEeqwoepTtIUh4g" name="Quantité d'eau chaude restante">
+      <generalization xmi:type="uml:Generalization" xmi:id="_0rW4oBpyEeqwoepTtIUh4g" general="_rxv8ABpkEeqwoepTtIUh4g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Vs2koBpoEeqwoepTtIUh4g" name="Taux de charge de la voiture">
+      <generalization xmi:type="uml:Generalization" xmi:id="_6jYb8BpyEeqwoepTtIUh4g" general="_rxv8ABpkEeqwoepTtIUh4g"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_vHEVMBpoEeqwoepTtIUh4g" name="Afficher"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_O_b08BppEeqwoepTtIUh4g" name="Qualité de l'air">
       <include xmi:type="uml:Include" xmi:id="_0LiF4BpuEeq-Gqhb9j-Jeg" addition="_vHEVMBpoEeqwoepTtIUh4g"/>
@@ -34,6 +50,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_mT0sABpqEeqwoepTtIUh4g" name="Heure de fin de la recharge de la voiture">
       <include xmi:type="uml:Include" xmi:id="_5juSkBpuEeq-Gqhb9j-Jeg" addition="_vHEVMBpoEeqwoepTtIUh4g"/>
+      <include xmi:type="uml:Include" xmi:id="_YhhOMBp0EeqwoepTtIUh4g" addition="_M0to0Bp0EeqwoepTtIUh4g"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_wgR48BpqEeqwoepTtIUh4g" name="Heure à laquelle on peut prendre une douche">
       <include xmi:type="uml:Include" xmi:id="_63fnkBpuEeq-Gqhb9j-Jeg" addition="_vHEVMBpoEeqwoepTtIUh4g"/>
@@ -43,21 +60,14 @@
     <packagedElement xmi:type="uml:Association" xmi:id="_y5zqMBpsEeq-Gqhb9j-Jeg"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_0wKu4BpsEeq-Gqhb9j-Jeg"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_19CKoBpsEeq-Gqhb9j-Jeg"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_yMv6cBptEeq-Gqhb9j-Jeg"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_0wXtwBptEeq-Gqhb9j-Jeg"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_4-91IBptEeq-Gqhb9j-Jeg"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Cw2l8BpuEeq-Gqhb9j-Jeg"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Gk9wwBpuEeq-Gqhb9j-Jeg"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Hub6QBpuEeq-Gqhb9j-Jeg"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Q2cnoBpuEeq-Gqhb9j-Jeg"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_R88VoBpuEeq-Gqhb9j-Jeg"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_pTCSUBpuEeq-Gqhb9j-Jeg"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_r6VrwBpuEeq-Gqhb9j-Jeg"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_vjarQBpuEeq-Gqhb9j-Jeg"/>
     <packagedElement xmi:type="uml:Association" xmi:id="__n1xIBpuEeq-Gqhb9j-Jeg"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_BNNzgBpvEeq-Gqhb9j-Jeg"/>
     <packagedElement xmi:type="uml:Model" xmi:id="_sPC7ABpvEeqwoepTtIUh4g" name="Maison"/>
     <packagedElement xmi:type="uml:Model" xmi:id="_0xAVABpvEeqwoepTtIUh4g" name="Capteur"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_M0to0Bp0EeqwoepTtIUh4g" name="Prendre la voiture à 16h30 tout les jours"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_T0ooUBp0EeqwoepTtIUh4g"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PnsWgBpjEeq-Gqhb9j-Jeg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pns9kBpjEeq-Gqhb9j-Jeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
