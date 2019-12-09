@@ -9,9 +9,6 @@ Par rapport aux exigences, nous allons ajouter un scénario d'utilisation : l'utl
 ## Le digramme des cas d'utilisations
 
 ### Définition des acteurs : 
-	
-	* la maison --> affiche
-	* un humain --> lit
 
 ![UseCaseImage](./diagrams/PNGs/SysML_1_4_Use_Case_Diagram.PNG)
 
