@@ -66,19 +66,18 @@
     <packagedElement xmi:type="uml:Association" xmi:id="__n1xIBpuEeq-Gqhb9j-Jeg"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_M0to0Bp0EeqwoepTtIUh4g" name="Prendre la voiture à 16h30 tout les jours"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_T0ooUBp0EeqwoepTtIUh4g"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_9Bz7UBp0Eeq-Gqhb9j-Jeg" name="Maison">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_JfZdYBp1Eeq-Gqhb9j-Jeg" name="capteur" type="_AHzb4Bp1Eeq-Gqhb9j-Jeg" aggregation="composite" association="_JfY2UBp1Eeq-Gqhb9j-Jeg">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Mv49wBp1Eeq-Gqhb9j-Jeg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Mv8oIBp1Eeq-Gqhb9j-Jeg" value="*"/>
-      </ownedAttribute>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9Bz7UBp0Eeq-Gqhb9j-Jeg" name="Maison"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_AHzb4Bp1Eeq-Gqhb9j-Jeg" name="Capteur"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_D9IusBp1Eeq-Gqhb9j-Jeg" name="Poste de contrôle"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_JfY2UBp1Eeq-Gqhb9j-Jeg" memberEnd="_JfZdYBp1Eeq-Gqhb9j-Jeg _JfZdYRp1Eeq-Gqhb9j-Jeg">
+    <packagedElement xmi:type="uml:Association" xmi:id="_JfY2UBp1Eeq-Gqhb9j-Jeg" visibility="package" memberEnd="_JfZdYBp1Eeq-Gqhb9j-Jeg _JfZdYRp1Eeq-Gqhb9j-Jeg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JfY2URp1Eeq-Gqhb9j-Jeg" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JfY2Uhp1Eeq-Gqhb9j-Jeg" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_JfZdYRp1Eeq-Gqhb9j-Jeg" name="maison" type="_9Bz7UBp0Eeq-Gqhb9j-Jeg" association="_JfY2UBp1Eeq-Gqhb9j-Jeg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_JfZdYBp1Eeq-Gqhb9j-Jeg" name="capteur" type="_AHzb4Bp1Eeq-Gqhb9j-Jeg" aggregation="composite" association="_JfY2UBp1Eeq-Gqhb9j-Jeg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Mv49wBp1Eeq-Gqhb9j-Jeg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Mv8oIBp1Eeq-Gqhb9j-Jeg" value="*"/>
+      </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_PquXMBp1Eeq-Gqhb9j-Jeg" memberEnd="_Pqu-Qhp1Eeq-Gqhb9j-Jeg _Pqu-Qxp1Eeq-Gqhb9j-Jeg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pqu-QBp1Eeq-Gqhb9j-Jeg" source="org.eclipse.papyrus">
@@ -86,6 +85,21 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_Pqu-Qhp1Eeq-Gqhb9j-Jeg" name="poste de contrôle" type="_D9IusBp1Eeq-Gqhb9j-Jeg" aggregation="composite" association="_PquXMBp1Eeq-Gqhb9j-Jeg"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_Pqu-Qxp1Eeq-Gqhb9j-Jeg" name="maison" type="_9Bz7UBp0Eeq-Gqhb9j-Jeg" association="_PquXMBp1Eeq-Gqhb9j-Jeg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_2YMtkBp1Eeq-Gqhb9j-Jeg" memberEnd="_2YMtkxp1Eeq-Gqhb9j-Jeg _2YNUoBp1Eeq-Gqhb9j-Jeg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2YMtkRp1Eeq-Gqhb9j-Jeg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2YMtkhp1Eeq-Gqhb9j-Jeg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_2YMtkxp1Eeq-Gqhb9j-Jeg" name="capteur" type="_AHzb4Bp1Eeq-Gqhb9j-Jeg" aggregation="shared" association="_2YMtkBp1Eeq-Gqhb9j-Jeg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_32hFsBp1Eeq-Gqhb9j-Jeg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_32kJABp1Eeq-Gqhb9j-Jeg" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_2YNUoBp1Eeq-Gqhb9j-Jeg" name="poste de contrôle" type="_D9IusBp1Eeq-Gqhb9j-Jeg" association="_2YMtkBp1Eeq-Gqhb9j-Jeg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_CM2nYBp2Eeq-Gqhb9j-Jeg" name="Voiture">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JO9_QBp2Eeq-Gqhb9j-Jeg" name="ChargeElectrique">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PnsWgBpjEeq-Gqhb9j-Jeg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pns9kBpjEeq-Gqhb9j-Jeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -152,4 +166,5 @@
   <Blocks:Block xmi:id="_9B2XkBp0Eeq-Gqhb9j-Jeg" base_Class="_9Bz7UBp0Eeq-Gqhb9j-Jeg"/>
   <Blocks:Block xmi:id="_AH3GUhp1Eeq-Gqhb9j-Jeg" base_Class="_AHzb4Bp1Eeq-Gqhb9j-Jeg"/>
   <Blocks:Block xmi:id="_D9J80Bp1Eeq-Gqhb9j-Jeg" base_Class="_D9IusBp1Eeq-Gqhb9j-Jeg"/>
+  <Blocks:Block xmi:id="_CM4ckBp2Eeq-Gqhb9j-Jeg" base_Class="_CM2nYBp2Eeq-Gqhb9j-Jeg"/>
 </xmi:XMI>
