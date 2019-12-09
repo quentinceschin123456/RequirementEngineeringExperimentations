@@ -56,6 +56,8 @@
     <packagedElement xmi:type="uml:Association" xmi:id="_vjarQBpuEeq-Gqhb9j-Jeg"/>
     <packagedElement xmi:type="uml:Association" xmi:id="__n1xIBpuEeq-Gqhb9j-Jeg"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_BNNzgBpvEeq-Gqhb9j-Jeg"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_sPC7ABpvEeqwoepTtIUh4g" name="Maison"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_0xAVABpvEeqwoepTtIUh4g" name="Capteur"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PnsWgBpjEeq-Gqhb9j-Jeg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pns9kBpjEeq-Gqhb9j-Jeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>

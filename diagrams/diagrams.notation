@@ -63,6 +63,24 @@
     <element href="diagrams.uml#_Pm0z0BpjEeq-Gqhb9j-Jeg"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_PsD5IBpjEeq-Gqhb9j-Jeg" type="PapyrusUMLClassDiagram" name="SysML 1.4 Block Definition Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_sPLd4BpvEeqwoepTtIUh4g" type="Model_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_sPME8BpvEeqwoepTtIUh4g" type="Model_NameLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_sPME8RpvEeqwoepTtIUh4g" type="Model_PackagedElementCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_sPME8hpvEeqwoepTtIUh4g"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_sPME8xpvEeqwoepTtIUh4g"/>
+      </children>
+      <element href="diagrams.uml#_sPC7ABpvEeqwoepTtIUh4g"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_sPLd4RpvEeqwoepTtIUh4g" x="362" y="103"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_0xEmcBpvEeqwoepTtIUh4g" type="Model_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_0xEmchpvEeqwoepTtIUh4g" type="Model_NameLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_0xEmcxpvEeqwoepTtIUh4g" type="Model_PackagedElementCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_0xEmdBpvEeqwoepTtIUh4g"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_0xEmdRpvEeqwoepTtIUh4g"/>
+      </children>
+      <element href="diagrams.uml#_0xAVABpvEeqwoepTtIUh4g"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_0xEmcRpvEeqwoepTtIUh4g" x="879" y="120"/>
+    </children>
     <styles xsi:type="notation:StringValueStyle" xmi:id="_PsD5IRpjEeq-Gqhb9j-Jeg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xsi:type="notation:DiagramStyle" xmi:id="_PsD5IhpjEeq-Gqhb9j-Jeg"/>
     <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_PsD5IxpjEeq-Gqhb9j-Jeg" diagramKindId="org.eclipse.papyrus.sysml14.diagram.blockdefinition">
