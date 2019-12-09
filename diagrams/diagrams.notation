@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style">
+  <notation:Diagram xmi:id="_PrZx0BpjEeq-Gqhb9j-Jeg" type="CompositeStructure" name="SysML 1.4 Internal Block Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_PrmmIBpjEeq-Gqhb9j-Jeg" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_Prn0QBpjEeq-Gqhb9j-Jeg" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_Prn0QRpjEeq-Gqhb9j-Jeg" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_Prn0QhpjEeq-Gqhb9j-Jeg" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_ProbUBpjEeq-Gqhb9j-Jeg" type="Class_StructureCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_ProbURpjEeq-Gqhb9j-Jeg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_ProbUhpjEeq-Gqhb9j-Jeg"/>
+      </children>
+      <element href="diagrams.uml#_Pq1xIBpjEeq-Gqhb9j-Jeg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_PrmmIRpjEeq-Gqhb9j-Jeg" x="40" y="40" width="500" height="250"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_PrZx0RpjEeq-Gqhb9j-Jeg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_PrZx0hpjEeq-Gqhb9j-Jeg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_PrZx0xpjEeq-Gqhb9j-Jeg" diagramKindId="org.eclipse.papyrus.sysml14.diagram.internalblock">
+      <owner href="diagrams.uml#_Pm0z0BpjEeq-Gqhb9j-Jeg"/>
+    </styles>
+    <element href="diagrams.uml#_Pq1xIBpjEeq-Gqhb9j-Jeg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Pr8kYBpjEeq-Gqhb9j-Jeg" type="PapyrusUMLSequenceDiagram" name="SysML 1.4 Sequence Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_Pr8kYRpjEeq-Gqhb9j-Jeg" type="Interaction_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_Pr8kYhpjEeq-Gqhb9j-Jeg" type="Interaction_NameLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_Pr8kYxpjEeq-Gqhb9j-Jeg" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Pr8kZBpjEeq-Gqhb9j-Jeg"/>
+      </children>
+      <element href="diagrams.uml#_Pr0BgBpjEeq-Gqhb9j-Jeg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Pr8kZRpjEeq-Gqhb9j-Jeg"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_Pr8kZhpjEeq-Gqhb9j-Jeg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_Pr8kZxpjEeq-Gqhb9j-Jeg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_Pr8kaBpjEeq-Gqhb9j-Jeg" diagramKindId="org.eclipse.papyrus.sysml14.diagram.sequence">
+      <owner href="diagrams.uml#_Pm0z0BpjEeq-Gqhb9j-Jeg"/>
+    </styles>
+    <element href="diagrams.uml#_Pr0BgBpjEeq-Gqhb9j-Jeg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_PsCrABpjEeq-Gqhb9j-Jeg" type="PapyrusUMLClassDiagram" name="SysML 1.4 Requirement Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_PsCrARpjEeq-Gqhb9j-Jeg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_PsCrAhpjEeq-Gqhb9j-Jeg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_PsCrAxpjEeq-Gqhb9j-Jeg" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
+      <owner href="diagrams.uml#_Pm0z0BpjEeq-Gqhb9j-Jeg"/>
+    </styles>
+    <element href="diagrams.uml#_Pm0z0BpjEeq-Gqhb9j-Jeg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_PsD5IBpjEeq-Gqhb9j-Jeg" type="PapyrusUMLClassDiagram" name="SysML 1.4 Block Definition Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_PsD5IRpjEeq-Gqhb9j-Jeg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_PsD5IhpjEeq-Gqhb9j-Jeg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_PsD5IxpjEeq-Gqhb9j-Jeg" diagramKindId="org.eclipse.papyrus.sysml14.diagram.blockdefinition">
+      <owner href="diagrams.uml#_Pm0z0BpjEeq-Gqhb9j-Jeg"/>
+    </styles>
+    <element href="diagrams.uml#_Pm0z0BpjEeq-Gqhb9j-Jeg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_PsEgMBpjEeq-Gqhb9j-Jeg" type="UseCase" name="SysML 1.4 Use Case Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_PsEgMRpjEeq-Gqhb9j-Jeg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_PsEgMhpjEeq-Gqhb9j-Jeg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_PsEgMxpjEeq-Gqhb9j-Jeg" diagramKindId="org.eclipse.papyrus.sysml14.diagram.useCase">
+      <owner href="diagrams.uml#_Pm0z0BpjEeq-Gqhb9j-Jeg"/>
+    </styles>
+    <element href="diagrams.uml#_Pm0z0BpjEeq-Gqhb9j-Jeg"/>
+  </notation:Diagram>
+</xmi:XMI>
