@@ -19,3 +19,6 @@ Par rapport aux exigences, nous allons ajouter un scénario d'utilisation : l'utl
 ## Le diagramme de blocs internes 
 
 ![InternalBlockDiagram](./diagrams/PNGs/SysML_1_4_Internal_Block_Diagram.PNG)
+
+## Le diagramme Dynamique
+![InternalBlockDiagram](./diagrams/PNGs/SysML_1_4_Sequence_Diagram.PNG)
