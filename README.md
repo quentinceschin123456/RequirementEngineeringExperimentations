@@ -16,4 +16,8 @@ Dans ce read me vous trouverez les différents diagrammes modélisant les exigence
 
 ## Le diagramme de définition de blocs
 
+![UseCaseImage](./diagrams/PNGs/SysML_1_4_Block_Definition_Diagram.PNG)
+
 ## Le diagramme de blocs internes 
+
+![UseCaseImage](./diagrams/PNGs/SysML_1_4_Internal_Block_Diagram.PNG)
