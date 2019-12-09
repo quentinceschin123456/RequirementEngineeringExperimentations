@@ -12,6 +12,8 @@ Dans ce read me vous trouverez les différents diagrammes modélisant les exigence
 	* la maison --> affiche
 	* un humain --> lit
 
+![UseCaseImage](./diagrams/PNGs/SysML_1_4_Use_Case_Diagram.PNG)
+
 ## Le diagramme de définition de blocs
 
 ## Le diagramme de blocs internes 
