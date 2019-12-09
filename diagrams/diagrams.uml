@@ -9,6 +9,26 @@
     </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_Pq1xIBpjEeq-Gqhb9j-Jeg" name="Block13"/>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_Pr0BgBpjEeq-Gqhb9j-Jeg" name="Interaction14"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_bNsT0BpkEeqwoepTtIUh4g" name="Maison"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_eWHdUBpkEeqwoepTtIUh4g" name="Utilisateur"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rxv8ABpkEeqwoepTtIUh4g" name="Mesurer"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0bh1QBpkEeqwoepTtIUh4g" name="Observer"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2rjXIBpkEeqwoepTtIUh4g" name="Calculer"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6r94kBpkEeqwoepTtIUh4g" name="Température"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_RccmwBplEeqwoepTtIUh4g" name="Humidité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AkBwwBpoEeqwoepTtIUh4g" name="Taux de rejet de CO2"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EuUm8BpoEeqwoepTtIUh4g" name="Taux de COV"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JgCpgBpoEeqwoepTtIUh4g" name="Consommation électrique"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_L-j6YBpoEeqwoepTtIUh4g" name="Production électrique"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OqswgBpoEeqwoepTtIUh4g" name="Quantité d'eau chaude restante"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Vs2koBpoEeqwoepTtIUh4g" name="Taux de charge de la voiture"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vHEVMBpoEeqwoepTtIUh4g" name="Afficher"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_O_b08BppEeqwoepTtIUh4g" name="Qualité de l'air"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_RIIKUBpqEeqwoepTtIUh4g" name="Paramètres physiques"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bMIl4BpqEeqwoepTtIUh4g" name="Capacité de déplacement de la voiture"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ez26gBpqEeqwoepTtIUh4g" name="Ratio production / consomation électrique"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mT0sABpqEeqwoepTtIUh4g" name="Heure de fin de la recharge de la voiture"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wgR48BpqEeqwoepTtIUh4g" name="Heure à laquelle on peut prendre une douche"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PnsWgBpjEeq-Gqhb9j-Jeg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pns9kBpjEeq-Gqhb9j-Jeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
