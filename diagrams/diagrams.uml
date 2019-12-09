@@ -29,6 +29,13 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_ez26gBpqEeqwoepTtIUh4g" name="Ratio production / consomation électrique"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_mT0sABpqEeqwoepTtIUh4g" name="Heure de fin de la recharge de la voiture"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_wgR48BpqEeqwoepTtIUh4g" name="Heure à laquelle on peut prendre une douche"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Lo5sEBprEeqwoepTtIUh4g" name="extends" client="_L-j6YBpoEeqwoepTtIUh4g" supplier="_RIIKUBpqEeqwoepTtIUh4g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_NbMwIBprEeqwoepTtIUh4g" name="extends" client="_6r94kBpkEeqwoepTtIUh4g" supplier="_RIIKUBpqEeqwoepTtIUh4g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_TwL8QBprEeqwoepTtIUh4g" name="extends" client="_OqswgBpoEeqwoepTtIUh4g" supplier="_RIIKUBpqEeqwoepTtIUh4g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_U09zABprEeqwoepTtIUh4g" name="extends" client="_Vs2koBpoEeqwoepTtIUh4g" supplier="_RIIKUBpqEeqwoepTtIUh4g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_WTY40BprEeqwoepTtIUh4g" name="extends" client="_EuUm8BpoEeqwoepTtIUh4g" supplier="_RIIKUBpqEeqwoepTtIUh4g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_XvH3ABprEeqwoepTtIUh4g" name="extends" client="_RccmwBplEeqwoepTtIUh4g" supplier="_RIIKUBpqEeqwoepTtIUh4g"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_YljIsBprEeqwoepTtIUh4g" name="extends" client="_AkBwwBpoEeqwoepTtIUh4g" supplier="_RIIKUBpqEeqwoepTtIUh4g"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PnsWgBpjEeq-Gqhb9j-Jeg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pns9kBpjEeq-Gqhb9j-Jeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
